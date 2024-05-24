@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>NAJAM STOR</title>
+    <link rel="stylesheet" href="bootstraps/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+    
+</head>
+<body>
+
+    <header>
+        <div class="head-pro">
+            <img src="./Images/sstar-removebg-preview.png" alt="" class="headimg">
+            <a href="index.html" class="brand">ALNAJM</a>
+            <nav class="nav-sign">
+                <ul id="user_info">
+                    <li><i class="fas fa-shopping-cart"> <h2 id="numcart"></h2><h2 class="user_infoselcet">Cart <i  id="viewcart" class="fas fa-sort-down down"></i></h2></i>
+                    <div id="cart">
+                        <div class="len" id="cards">
+                            <!-- <div id="card">
+                                <h2>waseem</h2>
+                                <div id="cardupr">
+                                    <span></span>
+                                    <i id="plus" class="fas fa-plus plus"></i>
+                                    <i id="minus" onclick="" class="fas fa-minus minus"></i>
+                                </div>
+                            </div> -->
+                            <h2 class="not">not products</h2>
+                        </div>
+                        <button onclick="view()" >VIEW PRODUCT</button>
+                    </div>
+                   </li>
+                    <li class=> <i class="fas fa-user"></i></li>
+                    <li><h2 id="usname" class="user_infoselcet">wlcame<h2></h2> <i id="viewuser" class="fas fa-sort-down down"></i></h2>
+                        <div id="useraccount">
+                           <hr>
+                           <h2 id="log_out">log out</h2>
+
+                        </div></li>
+                </ul>
+                <ul id="links">
+                    <li><a href="login.html"><button class="btn btn-primary">Sing in</button></a></li>
+                    <li><a href="register.html"><button class="btn btn-primary">Sign up</button></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- ***************** -->
+    
+    <main class="mainsearch">
+        <div class="sel">
+            <select id="selection">
+                <option>Search By Name</option>
+                <option>Search By Gategory</option>
+
+            </select>
+        </div>
+
+        <div class="search">
+            <input type="text" onkeyup="searchitem(this.value)" id="search" placeholder="search">
+        </div>
+    </main>
+    <hr>
+    <section class="home" id="home">
+
+
+
+    </section>
+
+
+    
+    <script src="bootstraps/js/popper.min.js"></script>
+    <script src="bootstraps/js/jquery-3.7.1.min.js"></script>
+    <script src="bootstraps/js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/users.js"></script>
+</body>
+</html>

@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    /* font-family:'Times New Roman', Times, serif !important; */
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 70px;
+    background-color: rgb(215, 218, 221);
+    padding: 10px 30px;
+}
+.head-pro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headimg{
+    position: absolute;
+    height: 60px !important;
+    width: 150px !important;
+    margin-top: -10px;
+}
+.brand {
+    margin-left: 650px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #061ce6;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -5px;
+}
+.nav-sign{
+margin-left: 30px !important;
+}
+.nav-sign ul {
+    margin-left: 30px;
+    display: flex;
+    list-style: none;
+}
+nav  li a {
+    display: block;
+    color: #fff;
+    min-width: 80px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+nav  li a button{
+    display: block;
+    color: #ffffff;
+    min-width: 80px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+.sel {
+    margin-top: 15px;
+    width:48%;
+    margin-left: 10px;
+}
+.products{
+    width: 94% !important;
+    margin: 20px auto;
+}
+.sel select{
+width: 90%;
+height: 30px;
+text-align: center;
+font-weight: 600;
+font-size: 20px;
+
+}
+.mainsearch{
+    display: flex;
+    justify-content: space-around;
+}
+.search{
+    width:48%;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.search input{
+    width: 95%;
+    padding-left: 10px;
+    
+}
+main form{
+    display: block;
+    background-color: rgb(215, 218, 221);
+    width: 80%;
+    padding-left: 120px !important;
+    padding-top: 15x;
+    padding-bottom: 20px;
+    margin: 50px auto;
+    font-weight: 600;
+}
+
+main form label,main form input{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+main form label{
+    font-size: 1.5em;
+}
+.fname{
+    display:inline-block;
+    width:45%;
+}
+.lname{
+    display:inline-block;
+    width: 45%;
+    margin: -30px;
+}
+#FirstName{
+    width: 40%;
+}
+#listName{
+    width: 40%;
+    margin-left: 30px;
+}
+#Email,#PASSOWRD,#PASS{
+    width: 83%;
+}
+.sin{
+    font-size: 30px;
+    color: #faf9f9;
+    display: block;
+    width: 75%;
+    height: 50px;
+    background-color: #061ce6;
+    border-radius: 10px;
+    margin: 40px 10%;
+}
+.chek_account{
+    padding-left: 2%;
+    font-weight: 700;
+}
+.remember{
+  margin: 0 10px;
+}
+.home{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prodact{
+    width: 30%;
+    height: 600px;
+    background-color:rgb(252, 255, 249);
+    padding: 10px;
+    margin: 10px 0;
+}
+.imgprodact{
+    width: 100%;
+    height: 70%;
+}
+.imgprodact img {
+    width: 100%;
+    height: 100%;
+    background-color: #e7e5e5;
+
+}
+.product-info h3{
+    line-height: 25px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.addcart{
+    display: flex;
+    justify-content: space-between;
+}
+.mylike {
+    margin-right: 20px;
+    font-size: 30px;
+}
+.addcart button{
+    width: 45%;
+    height: 45px;
+    font-weight: 600;
+    background-color: #2365f3;
+    color: #fff;
+    border: none;
+    border-radius:10px;
+       
+  
+}
+#user_info{
+    position: relative;
+    display: none;
+    gap:10px;
+    margin-right: 30px;
+    font-size: 1.5em;
+    justify-content: last baseline;
+    justify-items: center;
+}
+#user_info h2{
+    text-transform: capitalize ;
+font-weight: 600;
+margin-top: 5px;
+font-size: 20px;
+display: inline-block;
+
+}
+
+#numcart{
+    position: absolute;
+    border-radius: 50%;
+    /* background-color: #06e619; */
+    color: #ce1414;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    transform: translate(-100%,120%);
+    font-weight: 600;
+    font-size: 18px !important;
+    text-transform: capitalize;
+transform: translate(-70%,80%);
+}
+#user_info i{
+    margin-left: 10px;
+    font-size: 30px;
+}
+#user_info .down{
+    font-size: 20px;
+    margin-left: 0;
+    user-select:none;
+}
+#user_info .down:hover{
+    color: rgb(4, 47, 236);
+    transform:scale(1.5)
+}
+#cart{
+    display: none;
+    top: 50PX;
+    left:-20PX;
+    position: absolute;
+    background-color: #e2e2eb;
+    width: 250px;
+    min-height: 80px;
+    text-align: center;
+}
+.user_infoselcet{
+    user-select: none;
+}
+#cart button{
+    width: 90%;
+    height: 60PX;
+    display: block;
+    margin: 10PX auto;
+    background-color: #061ce6;
+    border-radius: 20PX;
+    color: #fff;
+}
+
+#useraccount{
+    display: none;
+    top: 35PX;
+    left:150px;
+    position: absolute;
+    background-color: #b5b5bb;
+    width: 190px;
+    height: 80px;
+    padding-bottom: 10px;
+}
+#log_out{
+    display: block;
+    text-align: center;
+    color: #8b8c92;
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+}
+#useraccount h2{
+    display: block;
+
+}
+#card{
+    width: 95%;
+    height: 50px;
+    background-color: #94949c;
+    display: flex;
+    justify-content:space-between;
+    margin:10px auto;
+    border-radius: 20px;
+    padding:5px 8px;
+}
+.plus{
+    color: green;
+    font-size: 20px !important;
+}
+.minus{
+    color: red;
+    font-size: 20px !important;
+    margin-right: 5px;
+}
+#cardupr span{
+    display: inline-block;
+    font-size: 25px!important;
+    font-weight: 600;
+}
+#main_cart{
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.butadd{
+    background-color: #2365f3;
+    color: #fff;
+    border: none;
+    border-radius:10px;
+    width: 100px;
+}
+.productscart{
+ 
+    width: 45%;
+    height: 300px;
+    padding-top: 20px;
+    background-color: #94949c;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    border-radius: 40px;
+margin: 20px 0;
+}
+.productscartimg{
+
+    width: 40%;
+    height: 90%;
+}
+.productscartimg img{
+width: 100%;
+height: 100%;
+background-color: #e7e5e5;
+}
+.productcartitem{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.addcarts button{
+    background-color: #ce1414;
+    font-weight: 600;
+}
+#sum{
+    margin: 40px 0;
+    text-align: center;
+    font-weight: 900;
+}
+#liks h2{
+    width: 10%;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 900;
+    border-bottom: 4px solid blue;
+}
+#likesitem{
+    overflow-x:auto;
+    user-select: none;
+    display: flex;
+    margin: 10px 30px;
+}
+
+#likesitem::-webkit-scrollbar{
+    width: 0;
+}
+.productlik{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    margin: 20px 40px;
+    min-width: 400px;
+    height: 500px;
+    background-color: #94949c;
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px 30px;
+}
+.productlik img{
+    width: 100%;
+    height: 70%;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.heartlik{
+    color: #ce1414;
+}
+.likeinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.infoitem{
+    text-align: left;
+}
+.rem_cart{
+    background-color: #ce1414 !important;
+}
