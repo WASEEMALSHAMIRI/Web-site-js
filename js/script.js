@@ -215,7 +215,7 @@ function searchitem(values){
             </div>
             <div class="addcart">
                 <button onclick="addToCart(${product[i].id}) class="butadd"> Add To Cart</button>
-                <i id="heart"  onclick="heart(${id})" class="mylike fas fa-heart fav heart"></i>
+                <i id="heart"  onclick="heart(${product[i].id})" class="mylike fas fa-heart fav heart"></i>
             </div>
         </div>`
         }
@@ -238,7 +238,7 @@ function searchitem(values){
             </div>
             <div class="addcart">
                 <button  onclick="addToCart(${product[i].id})class="butadd"> Add To Cart</button>
-                <i id="heart" onclick="heart(${id})" class=" mylike fas fa-heart fav heart"></i>
+                <i id="heart" onclick="heart(${product[i].id})" class=" mylike fas fa-heart fav heart"></i>
             </div>
         </div>`
         }
